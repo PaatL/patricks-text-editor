@@ -23,6 +23,10 @@ module.exports = () => {
 
     module: {
       rules: [
+        {
+
+          use: ['style-loader', 'css-loader'],
+        }
         
       ],
     },
